@@ -37,7 +37,7 @@ describe('HeroesComponent (shallow tests)', () => {
             providers: [
                 { provide: HeroService, useValue: mockHeroService }
             ]
-        })
+        });
 
         fixture = TestBed.createComponent(HeroesComponent);
     });
