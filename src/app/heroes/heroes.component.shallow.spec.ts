@@ -26,7 +26,7 @@ describe('HeroesComponent (shallow tests)', () => {
             { id: 1, name: 'SpiderDude', strength: 8 },
             { id: 2, name: 'Extraordinary Woman', strength: 24 },
             { id: 3, name: 'WonderGuy', strength: 55 }
-        ]
+        ];
         mockHeroService = jasmine.createSpyObj(['getHeroes', 'addHero', 'deleteHero']);
 
         TestBed.configureTestingModule({
